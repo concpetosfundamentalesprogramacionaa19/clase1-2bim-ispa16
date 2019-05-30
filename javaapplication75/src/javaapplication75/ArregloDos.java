@@ -24,6 +24,7 @@ public class ArregloDos {
         String[] x = new String[10];
         
         
+        
     }
     
 }

@@ -17,9 +17,15 @@ public class ArregloUno {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        int[] c = new int[12];
-        
-        
+        int[] c = new int[5];
+        c[3] = 20 ;
+        c[1+1] = 5 + 6;
+        c[2] = 11;
+        c[4] = 10;
+        c[5] = 100;
+        System.out.printf("%d +%d = %d\n",c[1] + c [4]);
+        System.out.printf("el tama;o del arreglo es: %d", c.length);
+        				  
     }
     
 }
